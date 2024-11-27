@@ -10,11 +10,14 @@ def papelTesoura():
 
     opcoes = ["pedra","papel","tesoura"]
     # uma variável que tem como elemento uma lista de 3 strings
+    # lista é uma estrutura de dados que armazena vários itens em ordem. Podemos acessar os itens por indice    
 
     # 3.1- O usuário irá digitar o que deseja
 
-    escolhaDoUsuario = input("Escolha pedra, papel ou tesoura: ")
-
+    escolhaDoUsuario = input("Escolha pedra, papel ou tesoura: ").lower()
+    # função input() pode exibir uma mensagem e capturar um texto digitado pelo usuário
+    # .lower() transforma o texto em letras minúsculas para evitar erros de digitação
+    
 
 
 
