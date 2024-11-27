@@ -9,10 +9,11 @@ def papelTesoura():
     # jogadas possíveis:
 
     opcoes = ["pedra","papel","tesoura"]
+    # uma variável que tem como elemento uma lista de 3 strings
 
     # 3.1- O usuário irá digitar o que deseja
 
-    
+    escolhaDoUsuario = input("Escolha pedra, papel ou tesoura: ")
 
 
 
